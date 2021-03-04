@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background: url("images/bk.png") no-repeat 0 ;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; ;
+  background-size: cover; 
+  color:#790c5a; 
+}
+
+#level-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+  font-weight:bold;
+  margin:0;
+}
+
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  background: url("images/purple-background.jpg") no-repeat 0 ;
+  opacity: 0.8;
+}
+
+.purple {
+  background-color: #B88BEC;
+  border: 10px solid  #411E69;
+}
+
+.blue {
+  background-color:#00C9E8;
+  border: 10px solid  #0B444C;
+  
+}
+
+.green {
+  background-color: #85F005;
+  border: 10px solid  #3F7002;
+}
+
+.orange {
+  background-color: #F08A09;
+  border: 10px solid  #F03A02;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+.button{
+  position:absolute;
+  right:20px;
+  top:30px;
+  background-color: #cccccc; 
+  border:0;
+  border-radius: 30%;
+}
+
+.dark-mode{
+  color:#778899;
+  background: url("images/dark.jpg");
+
+}
+.icon{
+  transform:rotate(-25deg);
+}
