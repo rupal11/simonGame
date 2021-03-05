@@ -75,7 +75,7 @@ body {
 .dark-mode{
   color:#778899;
   background: url("images/dark.jpg");
-
+  background-color: #000; /* Used if the image is unavailable */
 }
 .icon{
   transform:rotate(-25deg);
