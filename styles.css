@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: url("images/bk.png") no-repeat 0 ;
+  background-image: url("images/bk.png");
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center; ;
   background-size: cover; 
@@ -32,7 +32,7 @@ body {
 
 .game-over {
   background-color: red;
-  background: url("images/purple-background.jpg") no-repeat 0 ;
+  background: url("images/purple-background.jpg");
   opacity: 0.8;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .dark-mode{
   color:#778899;
-  background: url("images/dark.jpg");
+  background-image: url("images/dark.jpg");
   background-color: #000; /* Used if the image is unavailable */
 
 }
